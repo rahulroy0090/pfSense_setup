@@ -20,13 +20,13 @@
 ##### 3). Now, click on Host only Networks 
 #####            IPv4: 10.0.0.1/24
 #####            Network Mask: 255.255.255.0
-![Alt text](1.PNG)
+![](1.png)
 ##### 4). Click on Apply.
 ##### 5). Now, click on NAT Networks.
 #####            Name: External
 #####            IPv4: 11.0.2.1/24
 #####            Disable DHCP
-![Alt text](2.PNG)
+![](2.png)
 
 ##### 6). Click on Apply.
 
@@ -54,11 +54,11 @@
 ##### 2). Click on Network.
 ##### 3). Now, click on Adapter 1.
 ##### 4). Enable Network Adapter and select NAT Network (WAN).
-![Alt text](3.PNG)
+![](3.png)
 ##### 5). Then, click on Adapter 2.
 ##### 6). Enable Host-only Adapter and select 
 ##### 7). VirtualBox Host-Only Ethernet Adapter (LAN).
-![Alt text](4.PNG)
+![](4.png)
 
 ##### 8). Click on the OK button.
 
@@ -68,12 +68,12 @@
 
 ##### 1). Screen of pfsense.
 
-![Alt text](5.PNG)
+![](5.png)
 
 
 ##### 2). Now, select option 2
 
-![Alt text](6.PNG)
+![](6.png)
 
 ##### 3). Now, select option 2 for LAN
 ##### 4). Then, LAN interface via DHCP: N
@@ -81,7 +81,7 @@
 ##### 6). Then, Select the subnet: 24
 ##### 7). Then, enter the LAN gateway:  
 
-![Alt text](7.PNG)
+![](7.png)
 
 ##### 8). Now, gateway set asdefault: N
 ##### 9). Now, IPv6 address: N
@@ -89,11 +89,11 @@
 ##### 11). Now, Enter the start address of the IPv4 client. address range: 10.0.0.11
 ##### 12). Now, Enter the end address of the IPv4 client address range: 10.0.0.50
 
-![Alt text](8.PNG)
+![](8.png)
 
 
 ### Now, Access the dasbord of pfSenace on browers IP: 10.0.0.3
-![Alt text](9.PNG)
+![](9.png)
 ###  Here the steps of WAN network on pfsense
 ##### 1). Now, select option 2
 ##### 2). Now, select option 1 for WAN
@@ -101,14 +101,14 @@
 ##### 4). Then, Enter the WAN address: 11.0.2.5
 ##### 5). Then, Select the subnet: 24
 ##### 6). Then, enter the WAN gateway: 11.0.2.1
-![Alt text](10.PNG)
+![](10.png)
 ##### 7). Now, gateway set asdefault: N
 ##### 8). Now, IPv6 address: N
 ##### 9).Now, Enable the DHCP server on WAN: N 
 
-![Alt text](11.PNG)
+![](11.png)
 ### Now, let's check the Internet working on pfsense.
 ##### ping google.com
-![Alt text](12.PNG)
+![](12.png)
 
 
